@@ -27,7 +27,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
    ```
 3. Erstelle ein virtuelles Environment:
    ```bash
-   python -m venv env
+   python -m venv venv.crawler
    ```
 4. Aktiviere das virtuelle Environment:
    ```bash
@@ -43,7 +43,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
    ```
 3. Erstelle ein virtuelles Environment:
    ```bash
-   python3 -m venv env
+   python3 -m venv venv.crawler
    ```
 4. Aktiviere das virtuelle Environment:
    ```bash
