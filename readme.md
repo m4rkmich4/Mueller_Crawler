@@ -114,7 +114,7 @@ Im Hauptverzeichnis des Projekts, dem **Müller_Crawler_Hausarbeit_Mederer_Rabus
 
 ## Excel-Auswertung
 
-Im Ordner Excel-Auswertung is noch ein Sheet enthalten welches die erstellten CSV Dateien verarbeitet 
+Im Ordner Excel-Auswertung is noch ein Sheet enthalten, welches die erstellten CSV Dateien verarbeitet 
 und in einem interaktiven Dashboard visualisiert.
 
 ## Backup - Ordner
