@@ -82,13 +82,13 @@ pip install -r requirements.txt
 
 - **Scrapers**
   - Beinhaltet alle notwendigen Dateien für den Crawling-Prozess:
-    - `Extractor`: Extrahiert relevante Daten aus den Webseiten.
-    - `Analyzer`: Analysiert die extrahierten Daten.
-    - `Product-Extractor`: Spezifisch für die Extraktion von Produktinformationen.
-    - `Review-Extractor`: Extrahiert Kundenbewertungen.
-    - `Web-Crawler`: Verbindet sich mit den Webseiten und sammelt Daten.
-    - `Link-Extractor`: Extrahiert Links von den zu crawlenden Seiten.
-    - Diverse Browser-Einstellungen für Chromium.
+    - `browser_settings.py`: Settings für den Selenium ChromeDriver.
+    - `review_Analyzer.py`: Analysiert die extrahierte Reviews.
+    - `product_Extractor.py`: Extrahiert Produktinformationen.
+    - `review_Extractor.py`: Extrahiert Kundenbewertungen.
+    - `web_Crawler.py`: Erstellt Verbindung zur Webseite und regelt Staus-Codes.
+    - `link_Extractor.py`: Extrahiert Links von den zu crawlenden Seiten.
+   
 
 ## Hauptdateien im Projektverzeichnis
 
@@ -115,7 +115,7 @@ Im Hauptverzeichnis des Projekts, dem **Müller_Crawler_Hausarbeit_Mederer_Rabus
 ## Excel-Auswertung
 
 Im Ordner Excel-Auswertung is noch ein Sheet enthalten welches die erstellten CSV Dateien verarbeitet 
-und in einem Interaktiven Dashboard visualisiert.
+und in einem interaktiven Dashboard visualisiert.
 
 ## Backup - Ordner
 
