@@ -31,7 +31,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
    ```
 4. Aktiviere das virtuelle Environment:
    ```bash
-   .\env\Scripts\activate
+   .\venv.crawler\Scripts\activate
    ```
 
 #### Mac
@@ -47,7 +47,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
    ```
 4. Aktiviere das virtuelle Environment:
    ```bash
-   source env/bin/activate
+   source venv.crawler/bin/activate
    ```
 
 ### Installation der Abhängigkeiten
