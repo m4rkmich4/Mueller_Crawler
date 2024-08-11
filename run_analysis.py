@@ -7,10 +7,12 @@ from colorama import Fore, Style
 
 colorama.init(autoreset=True)
 
+
 def print_banner():
-    print(Fore.CYAN + Style.BRIGHT + "="*50)
+    print(Fore.CYAN + Style.BRIGHT + "=" * 50)
     print(Fore.CYAN + Style.BRIGHT + " Willkommen zum Review Analyzer Tool ")
-    print(Fore.CYAN + Style.BRIGHT + "="*50)
+    print(Fore.CYAN + Style.BRIGHT + "=" * 50)
+
 
 def print_menu():
     print(Fore.YELLOW + "Welche Bewertungen möchten Sie analysieren?")
@@ -18,12 +20,14 @@ def print_menu():
     print("[2] Negative Eigenschaften (Bewertungen 1-2 Sterne)")
     print("[3] Programm beenden")
 
+
 def validate_choice(choice):
     if choice in ["1", "2", "3"]:
         return True
     else:
         print(Fore.RED + "Ungültige Auswahl. Bitte wählen Sie 1, 2 oder 3.")
         return False
+
 
 def analyze(choice):
     # Dynamischer Pfad zur SQLite-Datenbank
@@ -53,6 +57,7 @@ def analyze(choice):
     analyzer.run_analysis()
     print(Fore.GREEN + "Analyse abgeschlossen!")
 
+
 def main():
     print_banner()
     while True:
@@ -63,6 +68,7 @@ def main():
                 print(Fore.CYAN + "Programm wird beendet. Auf Wiedersehen!")
                 sys.exit(0)
             analyze(choice)
+
 
 if __name__ == "__main__":
     main()
