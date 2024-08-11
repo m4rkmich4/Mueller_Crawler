@@ -34,7 +34,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
    .\venv.crawler\Scripts\activate
    ```
 
-#### Mac
+#### macOS
 
 1. Öffne das Terminal.
 2. Navigiere zum Projektverzeichnis:
