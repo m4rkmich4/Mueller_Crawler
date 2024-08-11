@@ -95,7 +95,7 @@ pip install -r requirements.txt
 Im Hauptverzeichnis des Projekts, dem **Müller_Crawler_Hausarbeit_Mederer_Rabus_Mark_Ordner**, befinden sich folgende wichtige Dateien:
 
 - **main.py**
-  - Diese Datei startet den Crawler. Durch Ausführung dieser Datei beginnt der Crawling-Prozess.
+  - Diese Datei startet den Crawler. Durch die Ausführung dieser Datei beginnt der Crawling-Prozess.
 
 - **query_all.py**
   - Fragt die Datenbank ab und erstellt CSV-Dateien mit allen Daten der gesamten Tabelle.
@@ -114,7 +114,7 @@ Im Hauptverzeichnis des Projekts, dem **Müller_Crawler_Hausarbeit_Mederer_Rabus
 
 ## Excel-Auswertung
 
-Im Ordner Excel-Auswertung is noch ein Sheet enthalten, welches die erstellten CSV Dateien verarbeitet 
+Im Ordner Excel-Auswertung ist noch ein Sheet enthalten, welches die erstellten CSV Dateien verarbeitet 
 und in einem interaktiven Dashboard visualisiert.
 
 ## Backup - Ordner
