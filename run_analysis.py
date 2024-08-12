@@ -1,9 +1,9 @@
 import os
 import sys
-from scrapers.review_analyzer import ReviewAnalyzer
-from DB.models import Review  # Import des Review-Modells
 import colorama
 from colorama import Fore, Style
+from scrapers.review_analyzer import ReviewAnalyzer
+from DB.models import Review 
 
 colorama.init(autoreset=True)
 
