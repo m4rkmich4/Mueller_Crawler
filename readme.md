@@ -8,7 +8,7 @@ URL: https://www.mueller.de/parfuemerie/duefte-fuer-ihn/duefte/
 
 ## Team
 
-Kristin Mederer, Niklas Rabus, Michael Mark
+Kristin Mederer (Testing, Analyse), Niklas Rabus (Analyse, Vsiualisierung), Michael Mark (Coding, Testing)
 
 
 
@@ -23,7 +23,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
 1. Öffne die Eingabeaufforderung (CMD) oder PowerShell.
 2. Navigiere zum Projektverzeichnis:
    ```bash
-   cd \Pfad\zum\Projekt\Mueller_Crawler_Hausarbeit_Mederer_Rabus_Mark
+   cd \Pfad\zum\Projekt\Mueller_Crawler
    ```
 3. Erstelle ein virtuelles Environment:
    ```bash
@@ -39,7 +39,7 @@ Um das Projekt in einer isolierten Umgebung auszuführen, wird empfohlen, ein vi
 1. Öffne das Terminal.
 2. Navigiere zum Projektverzeichnis:
    ```bash
-   cd /Pfad/zum/Projekt/Mueller_Crawler_Hausarbeit_Mederer_Rabus_Mark
+   cd /Pfad/zum/Projekt/Mueller_Crawler
    ```
 3. Erstelle ein virtuelles Environment:
    ```bash
