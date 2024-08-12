@@ -1,8 +1,8 @@
 import logging
-from bs4 import BeautifulSoup
-from selenium.webdriver.common.by import By
 import time
 import random
+from bs4 import BeautifulSoup
+from selenium.webdriver.common.by import By
 
 # Konfiguration des Loggings
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
