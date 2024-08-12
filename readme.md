@@ -8,7 +8,7 @@ URL: https://www.mueller.de/parfuemerie/duefte-fuer-ihn/duefte/
 
 ## Team
 
-Kristin Mederer, Niklas Rabus, Michael Mark
+Kristin Mederer (Testing, Analyse), Niklas Rabus (Analyse, Vsiualisierung), Michael Mark (Coding, Testing)
 
 
 
